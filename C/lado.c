@@ -3,20 +3,17 @@
 
 int main(){
 	
-	float lado_a;
-	float lado_b;
-	int Resul;
+	float lado;
+	float Resul;
 	float Dobro;
 
-	printf("Valor do Lado A: ");
-	scanf("%f", &lado_a);
-	printf("Valor do Lado B: ");
-	scanf("%f", &lado_b);
+	printf("Valor do Lado do Quadrado: ");
+	scanf("%f", &lado);
 
-	Resul = lado_a * lado_b;
-	Dobro = pow(Resul, 2);
+	Resul = pow(lado, 2);
+	Dobro = Resul * 2;
 
-	printf("\nO Dobro da área é %1.f", Dobro);
+	printf("\nO Dobro da área do Lado de um Quadrado de %2.f é %2.f", lado, Dobro);
 	return 0;
 }	
 
