@@ -1,0 +1,8 @@
++ = soma
+- = subtração
+* = multiplicação
+/ = divisão # divisão sempre retorna um número flutuante
+// = divisão sem pontos flutuantes
+* * = potência
+= ( é usado para atribuir um valor a uma variável)
+
