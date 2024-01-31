@@ -25,6 +25,24 @@ check_password_pwned() {
         fi
     done <<< "$response"
 
+source progressbar
+
+sleep 1
+setprogress 8 Verificando...
+sleep 1
+setprogress 12 Verificando..
+sleep 1
+setprogress 23 Verificando.
+sleep 1
+setprogress 37 Verificando..
+sleep 1
+setprogress 49 Verificando...
+sleep 1
+setprogress 66 Verificando.
+sleep 1
+setprogress 72 Verificando..
+sleep 1
+setprogress 86 Verificando...
     echo "Esta senha não foi encontrada em vazamentos conhecidos."
     return 0  # Senha não comprometida
 }
